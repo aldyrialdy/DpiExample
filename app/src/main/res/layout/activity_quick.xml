@@ -5,6 +5,10 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="5dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
     tools:context="studio.akse.dpiexample.QuickActivity">
 
     <ScrollView
@@ -23,6 +27,7 @@
 
             <EditText
                 android:layout_width="match_parent"
+                android:inputType="number"
                 android:layout_height="wrap_content" />
 
             <TextView
@@ -32,6 +37,7 @@
 
             <EditText
                 android:layout_width="match_parent"
+                android:inputType="number"
                 android:layout_height="wrap_content" />
 
             <TextView
@@ -41,6 +47,7 @@
 
             <EditText
                 android:layout_width="match_parent"
+                android:inputType="number"
                 android:layout_height="wrap_content" />
 
             <View
@@ -59,6 +66,7 @@
 
             <EditText
                 android:layout_width="match_parent"
+                android:inputType="number"
                 android:layout_height="wrap_content" />
 
             <TextView
@@ -68,6 +76,7 @@
 
             <EditText
                 android:layout_width="match_parent"
+                android:inputType="number"
                 android:layout_height="wrap_content" />
 
             <TextView
@@ -77,6 +86,7 @@
 
             <EditText
                 android:layout_width="match_parent"
+                android:inputType="number"
                 android:layout_height="wrap_content" />
 
             <View
@@ -95,6 +105,7 @@
 
             <EditText
                 android:layout_width="match_parent"
+                android:inputType="number"
                 android:layout_height="wrap_content" />
 
             <TextView
@@ -104,6 +115,7 @@
 
             <EditText
                 android:layout_width="match_parent"
+                android:inputType="number"
                 android:layout_height="wrap_content" />
 
             <TextView
@@ -113,6 +125,7 @@
 
             <EditText
                 android:layout_width="match_parent"
+                android:inputType="number"
                 android:layout_height="wrap_content" />
 
             <TextView
@@ -122,6 +135,7 @@
 
             <EditText
                 android:layout_width="match_parent"
+                android:inputType="number"
                 android:layout_height="wrap_content" />
 
             <View
@@ -140,6 +154,7 @@
 
             <EditText
                 android:layout_width="match_parent"
+                android:inputType="number"
                 android:layout_height="wrap_content" />
 
             <TextView
@@ -149,6 +164,7 @@
 
             <EditText
                 android:layout_width="match_parent"
+                android:inputType="number"
                 android:layout_height="wrap_content" />
 
             <TextView
@@ -158,6 +174,7 @@
 
             <EditText
                 android:layout_width="match_parent"
+                android:inputType="number"
                 android:layout_height="wrap_content" />
 
             <View
@@ -176,6 +193,7 @@
 
             <EditText
                 android:layout_width="match_parent"
+                android:inputType="number"
                 android:layout_height="wrap_content" />
 
             <TextView
@@ -185,6 +203,7 @@
 
             <EditText
                 android:layout_width="match_parent"
+                android:inputType="number"
                 android:layout_height="wrap_content" />
 
             <View
@@ -203,6 +222,7 @@
 
             <EditText
                 android:layout_width="match_parent"
+                android:inputType="number"
                 android:layout_height="wrap_content" />
 
             <View
@@ -221,6 +241,7 @@
 
             <EditText
                 android:layout_width="match_parent"
+                android:inputType="number"
                 android:layout_height="wrap_content" />
 
             <TextView
@@ -230,6 +251,7 @@
 
             <EditText
                 android:layout_width="match_parent"
+                android:inputType="number"
                 android:layout_height="wrap_content" />
 
             <TextView
@@ -239,6 +261,7 @@
 
             <EditText
                 android:layout_width="match_parent"
+                android:inputType="number"
                 android:layout_height="wrap_content" />
 
             <TextView
@@ -248,6 +271,7 @@
 
             <EditText
                 android:layout_width="match_parent"
+                android:inputType="number"
                 android:layout_height="wrap_content" />
 
             <TextView
@@ -257,6 +281,7 @@
 
             <EditText
                 android:layout_width="match_parent"
+                android:inputType="number"
                 android:layout_height="wrap_content" />
         </LinearLayout>
     </ScrollView>
@@ -268,17 +293,22 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
             android:orientation="vertical">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="TOTAL OMSET :" />
+                android:textColor="@color/colorEstimate"
+                android:text="TOTAL OMSET :"
+                android:padding="5dp"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="PROFIT ESTIMATION :" />
+                android:textColor="@color/colorEstimate"
+                android:text="PROFIT ESTIMATION :"
+                android:padding="5dp"/>
         </LinearLayout>
 
     </android.support.v7.widget.CardView>
